@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--meta tag, utilizing to render the html content in multiple devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My page</title>
+
+    <!--Style in cascate, more deep more value-->
+    <!-- but if have class or id the specificity of style change-->
+    <!--Hieraquie tag 0.1, -> class 0.10 -> id 1.0-->
+  <style>
+    #green{
+      background: green;
+    }
+    .background-red{
+      background: rgb(101, 14, 14);
+    }
+    .font-monospace{
+      font-family: monospace;
+    }
+  
+    h1{
+      background: red !important;
+    }
+  </style>
+  <!--When use !important in value selector, the page render the 
+  value in priority-->
+</head>
+<body>
+  <!--the class atribute, can be used in multiples tags of html-->
+  <!--the class can use two or more values-->
+  <h1 id="green" class="background-red font-monospace">My Heading</h1>
+  <!--the id atribute, can be used in one tag in your html-->
+  <p id="Firts-paragraph">My Paragraph</p>
+</body>
+</html>
