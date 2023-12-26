@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .responsive-table{
+        max-width: 100%;
+        overflow-x: auto;
+
+      }
+      table{
+        border-collapse: collapse;
+        width: 800px;
+      }
+      table td,
+      table th {
+        border: solid 1px #817c7c;
+        padding: 5px;
+        text-align: left;
+      }
+      caption{
+        caption-side: bottom;
+        font-size: 12px;
+        font-style: italic;
+        margin: 10px 0px;
+      }
+      tfoot td, table th{
+         background: #ddd; 
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>Tables</h1>
+    <div class="responsive-table">
+    <table>
+      <caption>Font: head's voice </caption>
+      <thead>
+        <tr>
+          <th>titulo 1</th>
+          <th>titulo 2</th>
+          <th>titulo 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>corpo 1</td>
+          <td>corpo 2</td>
+          <td>corpo 3</td>
+        </tr>
+        <tr>
+          <td colspan="2">corpo 1</td>
+          <td>corpo 2</td>
+
+        </tr>
+        <tr>
+          <td>corpo 1</td>
+          <td>corpo 2</td>
+          <td>corpo 3</td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td>foot 1</td>
+            <td>foot 2</td>
+            <td>foot 3</td>
+          </tr>
+        </tfoot>
+      </tbody>
+    </table>
+  </div>
+  </body>
+</html>
