@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      pad:0;
+      box-sizing: border-box;
+      color: white;
+    }
+    .all{
+      width: 100%;
+      height: 100vh;
+      background: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .log{
+      width: 400px;
+      height: 800px;
+      background: rgb(5, 10, 0.9);     
+      border: 1px solid white;
+      border-radius: 8%;
+      
+    }
+    .logar{
+      display: flex;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      padding-left: 25%;
+
+        }
+    .logar h1{
+      margin-top: 30px;
+      margin-bottom: 80px;
+
+      text-align: center;
+      font-size: 40px;
+    }
+    label{
+      display: flex;
+      margin-bottom: 5px;
+      font-size: 16px;
+    
+    }
+    form p{
+      margin-bottom: 20px;
+      color: black;
+      font-size: 20px;
+    }
+    form input{
+      color: black;
+    }
+
+    button{
+      font-size: 15px;
+      color:rgb(63, 9, 9);
+    }
+    button:hover{
+      color: wheat;
+      background: black;
+      border: solid white;
+    }
+    .forgot{
+      color:white;
+    }
+    .forgot a{
+      text-decoration: none;
+    }
+    .forgot a:hover{
+      color:wheat
+    }
+  </style>
+</head>
+<body>
+  <div class="all">
+    <div class="log">
+      <div class="logar">
+      <form action="#">
+        <h1>Loguin</h1>
+        <p>
+          <label for="input-email">Email</label>
+          <input type="email" name="input-email" id="input-email" placeholder="Write your email">
+        </p>
+        <p>
+          <label for="input-password">Email</label>
+          <input type="password" name="input-password" id="input-password" placeholder="password">
+        </p>
+        <p><button type="submit">
+          Submit
+        </button></p>
+        <p class="forgot"><a href="#">forgot passwords?</a></p>
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
