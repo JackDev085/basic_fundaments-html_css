@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encurtador</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .all {
+        height: 100vh;
+        display: flex;
+        background-image:url("https://alura.com.br/artigos/assets/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao.png");
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        flex-direction: column;
+      }
+      .main {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 400px;
+        height: 500px;
+
+        margin: auto;
+      }
+      .main h1 {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: large;
+      }
+      .main div {
+        color: white;
+        text-align: center;
+      }
+      .link {
+        width: 100%;
+        height: 80%;
+        padding-top: 20%;
+      }
+      .links {
+        margin-left: 0;
+        width: 100%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #e5e5e5;
+        border-radius: 5%;
+        margin-bottom: 4%;
+        
+      }
+      .links:hover{
+        background-color: rgba(255, 255, 255, 0.);
+        color: black;
+        border: solid 2px green;
+      }
+      .main div img {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border-radius: 100%;
+        background-color: white;
+      }
+      .link a{
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <div class="main">
+        <h1>@Imdevjack</h1>
+        <div class="link">
+          <div class="links">
+            <h2>
+              <a href="https://devjack.vercel.app/projects/projects.html"
+                >Portifólio(desktop)</a
+              >
+            </h2>
+          </div>
+          <div class="links">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+            <h2><a href="https://github.com/JackDev085">Github</a></h2>
+          </div>
+
+          <div class="links">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <h2><a href="https://wa.me/+5585986667136">Whatsapp</a></h2>
+          </div>
+          <div class="links">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+            <h2>
+              <a href="https://www.youtube.com/channel/UCru0zdXgSUpbENcXxTUejGQ"
+                >Youtube</a
+              >
+            </h2>
+          </div>
+
+          <div class="links">
+            <img
+              src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
+              alt=""
+            />
+            <h2>
+              <a
+                href="https://www.linkedin.com/in/jackson-nascimento-bb4454205/"
+                >Linkedin</a
+              >
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
