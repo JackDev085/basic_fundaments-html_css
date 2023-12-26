@@ -1,0 +1,16 @@
+*{
+  padding:0;
+  margin: 0;
+}
+div.main-content div.heading h3.clas{
+  color: red
+}
+.heading{
+  color: lemonchiffon;
+}
+.pai.filho{
+  color:red
+}
+.pai>.filho{
+  color:blue
+}
