@@ -1,0 +1,12 @@
+div{
+  border: 1px solid blue;
+  width: auto;
+  height: auto;
+  max-width: 600px;
+  max-height:60%;
+  margin: auto;
+  min-width: 0;
+  min-height: 0;
+  /* Overflow is used to view all element with a scroll*/
+  /* overflow: auto; */
+}

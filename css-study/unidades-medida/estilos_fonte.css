@@ -1,0 +1,14 @@
+p{
+  font: 20px;
+  text-align: center;
+  /* font-style: italic;
+  font-weight: bold;
+  direction: ltr;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 25px;
+  text-decoration: overline;
+  text-indent: 50px; */
+  /* top-bot, left-right, blur, color */
+  text-shadow: 2px 2px 5px red;
+}

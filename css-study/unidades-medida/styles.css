@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  pad: 0;
+}
+html{
+  /* Melhora o scrool da pagina, principalmente nos links
+  de âncora */
+  scroll-behavior: smooth;
+}
+
+/* em - unidade de medida que herda do elemento pai
+para cada 1em tem 100% do elemento pai 
+.pai p{
+  font-size: 0.5em;
+}
+p{
+  font-size: 0.5em;
+}
+rem - seu tamanho se baseia no tamanho do elemento root do documento
+no caso o "HtML" 
+html{
+  font-size: 62.5%;
+}
+p{
+  font-size: 0.5rem;
+}
+
+/* view port = ângulo de visão */
+/* .vw{
+  background: red;
+  width: 100vw;
+  height: 30rem;
+
+} */
+.links{
+  display: flex;
+  flex-direction: column;
+  color:black;
+  position: fixed;
+
+}
+
+#one{
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgoldenrod;
+}
+#two{
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgray;
+}
+#three{
+  width: 100vw;
+  height: 100vh;
+  background-color: darkorange;
+}
+
