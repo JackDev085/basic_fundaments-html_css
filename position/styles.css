@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+}
+/* .pai{
+
+} */
+.filha1, .filha2{
+  width:300px;
+  height: 300px;
+  background:blue;
+  margin: 10px;
+  /* Por padrão o valor do position é static */
+  position: absolute;
+  /* Camada 1 */
+  z-index: 1;
+}
+.filha2{
+  background-color: aquamarine;
+}
+/* .filha1{
+   posição relativa- continua ocupando o seu espaço
+  entretanto caso seja realizada mudanças ele pode ser direcionado 
+  position: relative;
+  top: 50px;
+  left: 50px;
+} */
+.filha1{
+  /* posição absoluta- o elemento não ocupa mais espaço e pode
+  ser movimentada livremente */
+  position: absolute;
+  /* podemos adicionar valores parecido com margin para melhor posicionar
+  o elemento */
+  margin-top: -150px;
+  margin-left: -150px;
+  top: 50%;
+  left: 50%;
+  /* camada 2 */
+  z-index: 2;
+}
