@@ -4,11 +4,48 @@
 }
 
 .box{
-  width: 200px;
-  height: 200px;
+  width: 340px;
+  height: 320px;
   background-color: red;
   margin: 5px;
   /* the float selector is used to define the chosen elemente, your fill used only in 
   your  surround*/
   float: left;
+}
+ @media (max-width: 1049px){
+  .box{
+    display: flex;
+    flex-direction: row;
+    width:45vw;
+    height:45vh;
+    background-color: pink;
+    /* the float selector is used to define the chosen elemente, your fill used only in 
+    your  surround*/
+
+  }
+} 
+@media (max-width: 600px){
+  .box{
+    display: flex;
+    margin-left: 5%;
+    width:90vw;
+    height:50vh;
+    background-color: green;
+    /* the float selector is used to define the chosen elemente, your fill used only in 
+    your  surround*/
+
+  }
+}
+/* Se um dispositivo estiver nessa condição esse estilo será aplicado */
+@media (max-width: 320px){
+  .box{
+    display: flex;
+    margin-left: 5%;
+    width:90vw;
+    height:50vh;
+    background-color: blue;
+    /* the float selector is used to define the chosen elemente, your fill used only in 
+    your  surround*/
+
+  }
 }
