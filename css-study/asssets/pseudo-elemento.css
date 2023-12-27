@@ -1,0 +1,27 @@
+/* Pseudo element, used to atribute something to a element */
+
+/* Before a element, make something  */
+ul li::after{
+  content: ' -- ';
+  background-color: red;
+  color: white;
+  display: block;
+}
+/* In a first letter of a element, make something */
+p::first-letter{
+  font-size: 60px;
+  display: block;
+  float: left;
+  padding-bottom: 50px;
+  border: 1px solid;
+  margin: 0;
+}
+/* In a text selected of a element, make something */
+p::selection{
+  background-color: black;
+  color: white;
+}
+/* customize the placeholder with placeholder pseudo element */
+h2 input::placeholder{
+  color: red;
+}

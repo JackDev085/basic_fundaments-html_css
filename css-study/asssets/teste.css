@@ -1,0 +1,7 @@
+input:not(:checked) +div{
+  background-color: black;
+  color: white;
+}div{
+  height:100vh;
+  width: auto;
+}

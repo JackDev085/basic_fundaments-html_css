@@ -1,0 +1,24 @@
+/* Specifc number */
+l li:nth-child(2){
+  background-color: aquamarine;
+}
+
+/* CHosen all even numbers */
+
+ul li:nth-child(even){
+  background-color: blueviolet;
+}
+/* CHosen all odd numbers */
+
+ul li:nth-child(odd){
+  background-color: rgb(58, 17, 96);
+}
+/* Chosen step a step(number) */
+ul li:nth-child(3n){
+  background-color: rgb(24, 163, 168);
+}
+/* Chosen step a step(number), iniatilizing by position four*/
+
+ul li:nth-child(3n+4){
+  background-color: rgb(160, 34, 137);
+}

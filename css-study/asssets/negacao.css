@@ -1,0 +1,18 @@
+p:not(.meio){
+  color: blue;
+}
+/* Denial is used to make a effect contrary */
+input:not(:checked) +div{
+  background-color: black;
+  color: white;
+}
+/* This is used to use a pseudo selector and the elemente before "+" is aplied 
+a atribute */
+input:checked +div{
+  background-color: rgb(177, 177, 123);
+  color: darkolivegreen;
+}
+div{
+  height:100vh;
+  width: auto;
+}
