@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+body{
+  font: sans-serif;
+  font-size: 40px;
+}
+.grid{
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+  gap: 30px;
+}
+.grid div{
+  background-color: tomato;
+  min-height: 100px;
+}
