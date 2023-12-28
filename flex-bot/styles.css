@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  /*the display selector and atribute flex
+  assign the element flexibility  */
+  display: flex;
+  flex-direction: row;
+/* flex-wrap permite que o conteúdo pule a linha
+quando não houver mais espaço */
+  /* flex-wrap: wrap; */
+
+
+  /* alig-items está mudando os itens no eixo
+  x */
+  /* align-items: center; */
+
+  /* alinha todo o conteúdo no centro */
+  /* align-content: center; */
+
+  /* justfy- content está mudando os itens no eixo
+  y*/
+  /* justify-content: center; */
+  background-color: yellow;
+  height: 500px;
+}
+.flex-item{
+  background-color: red;
+  width: 320px;
+}
+.flex-item:nth-child(3){
+  /* font-size: 30px; */
+}

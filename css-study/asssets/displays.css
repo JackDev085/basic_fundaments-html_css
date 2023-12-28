@@ -12,7 +12,7 @@
   your  surround*/
   float: left;
 }
- @media (max-width: 1049px){
+ @media (max-width: 321px) and(min-width: 760px){
   .box{
     display: flex;
     flex-direction: row;
@@ -21,19 +21,6 @@
     background-color: pink;
     /* the float selector is used to define the chosen elemente, your fill used only in 
     your  surround*/
-
-  }
-} 
-@media (max-width: 600px){
-  .box{
-    display: flex;
-    margin-left: 5%;
-    width:90vw;
-    height:50vh;
-    background-color: green;
-    /* the float selector is used to define the chosen elemente, your fill used only in 
-    your  surround*/
-
   }
 }
 /* Se um dispositivo estiver nessa condição esse estilo será aplicado */
